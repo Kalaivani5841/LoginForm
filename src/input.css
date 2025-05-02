@@ -1,0 +1,44 @@
+label{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2px;
+   
+}
+
+input{
+    display: block;
+    margin: 0 auto 12px auto;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+ 
+body {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: grey;
+    top: 20px;
+} 
+.image-container {
+    display: flex;
+    gap: 40px;
+}
+.image-box {
+    width: 100px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+   
+}
+.image-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;  
+}  
+.table{
+    background-color: black;
+}
